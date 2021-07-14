@@ -1,7 +1,7 @@
 ﻿function sendPushMessage() {
 
     var receiverToken = document.getElementById("push_ReceiverToken").value;
-    var key = 'AAAAL4gX-Xo:APA91bEpfkLw0F8ju_11FVw8RYuleoIve9uUP7QvoYJbT-q4kT7wjBxqN_2gBHhTl-4tBwkzc8IETIw3UwhOHS8__QnaN91Slcqg0HWG9dFq0hRRZA0tDWxkUnvdb-VIVmU9_KIBrcYI '; // Server API key
+    var key = 'AAAAypO-Df4:APA91bGYKSEL-CIydsM2flx5Yj374VgI1ye7oy6NImDRRcUjeAQAHcutRnVtBifxdm4B54kckz1MvNMpKhTHYKCRwi6AckrcHyK0RDZVoTuBtWWpfnf1mBehs78vb0Yhlrmv-5iaZO3s'; // Server API key
 
     var endUsersList = [];
     endUsersList.push(receiverToken);
